@@ -1,6 +1,6 @@
-var RetiredForagerBee = function(food, treasureChest) {
-  Grub.call(this, food);
-  ForagerBee.call(this, treasureChest);
+var RetiredForagerBee = function() {
+  Grub.call(this);
+  ForagerBee.call(this);
   this.treasureChest = [];
   this.age = 40;
   this.job = "gamble";
